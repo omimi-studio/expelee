@@ -39,7 +39,7 @@ const people = [
 
 export default function Team() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <section id="team" className="bg-white py-24 sm:py-32">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 lg:grid-cols-2">
         <div className="max-w-lg text-center lg:text-left">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
@@ -89,6 +89,6 @@ export default function Team() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
