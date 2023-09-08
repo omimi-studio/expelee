@@ -45,10 +45,13 @@ export default function CTA2() {
                 Supporting the growth of our clients is a fundamental reason why
                 our IT Services is the chosen Austin IT partner for many.
               </p>
-              <div className="mt-10 lg:mt-20 border-t border-t-gray-300 flex items-center justify-center gap-12  py-12">
-                <div className="w-20 h-20 rounded-full scale-150 border-4 border-ex-dark-blue" />
+              <div className="mt-10 lg:mt-20 border-t border-t-gray-300 flex items-center space-x-10  py-12">
+                <div className="w-32 h-32 rounded-full scale-100 border-4 border-ex-dark-blue flex items-center  justify-center ">
+                  <p className="text-xl font-black tracking-tight text-gray-900 sm:text-4xl">
+                    99%
+                  </p>
+                </div>
                 <div>
-                  {" "}
                   <p className=" text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
                     Success Rate
                   </p>

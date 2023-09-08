@@ -45,21 +45,24 @@ export default function CTA() {
           <div className="">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-ex-blue">
-                About our company
+                About Expelee
               </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-2 text-3xl font-bold tracking-loose text-gray-900 sm:text-5xl">
                 We&apos;re the world&apos;s best IT solutions company
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                We have been helping businesses with their IT needs since 2010.
-                We are provide fast, reliable, outsourced onsite and remote IT
-                support services
+                In a rapidly evolving digital landscape, Expelee stands as a
+                beacon of innovation, reliability, and expertise. Founded on the
+                principles of fostering growth and harnessing technology to
+                facilitate success, we at Expelee dedicate ourselves to
+                providing tailored IT services that meet and exceed the
+                expectations of our clients.
                 <br />
                 <br />
-                During this time, we&apos;ve built a reputation for excellent
-                clients satisfaction as evidenced by our returning clients year
-                after year, while our business growth has primarily come from
-                our referrals.
+                At Expelee, we envision a future where technology acts as a
+                seamless bridge connecting your business ambitions to reality.
+                Join us in building that future, one innovative solution at a
+                time.
               </p>
               <div className="mt-10 max-w-xl space-y-8 text-base leading-7 lg:max-w-none">
                 <Link

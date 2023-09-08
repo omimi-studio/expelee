@@ -9,45 +9,45 @@ import Link from "next/link";
 import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
 const cards = [
   {
-    name: "Network Security",
+    name: "Mobile App Development",
     description:
-      "Network Security protects your network and data from breaches, intrusions and other threats. This is a vast",
-    icon: security_icon,
-    link: "/",
-  },
-  {
-    name: "Mobile Security",
-    description:
-      "Network Security protects your network and data from breaches, intrusions and other threats. This is a vast",
-    icon: mobile_security_icon,
-    link: "/",
-  },
-  {
-    name: "Web Solutions",
-    description:
-      "Technically a web solution is a program distributed over a network & accessible through a common web browser.",
-    icon: web_icon,
-    link: "/",
-  },
-  {
-    name: "Cloud Security",
-    description:
-      "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.",
-    icon: cloud_icon,
-    link: "/",
-  },
-  {
-    name: "Application Security",
-    description:
-      "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.",
+      "Crafting unparalleled mobile experiences tailored to your business needs",
     icon: app_security_icon,
     link: "/",
   },
   {
-    name: "Risk Management",
+    name: "Custom Software Development",
     description:
-      "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.",
+      "Bespoke solutions that transform your unique vision into dynamic software.",
+    icon: mobile_security_icon,
+    link: "/",
+  },
+  {
+    name: "AI/ML Development",
+    description:
+      "Harness the power of AI and ML to drive innovation and foster intelligent business growth.",
     icon: risk_icon,
+    link: "/",
+  },
+  {
+    name: "Blockchain Development",
+    description:
+      "everaging blockchain technology to build transparent, secure, and innovative solutions for your business.",
+    icon: security_icon,
+    link: "/",
+  },
+  {
+    name: "Digital Transformation Services",
+    description:
+      "Reimagine your business in the digital age with strategies that are forward-thinking and transformative.",
+    icon: web_icon,
+    link: "/",
+  },
+  {
+    name: "DevOps Consulting",
+    description:
+      "Expert guidance to streamline your operations and foster a culture of continuous improvement with DevOps.",
+    icon: cloud_icon,
     link: "/",
   },
 ];
@@ -58,15 +58,14 @@ export default function Services() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-base font-semibold leading-7 text-ex-blue">
-            Our latest services
+            Discover Our Latest Services
           </p>
           <h2 className="mt-4 text-4xl font-bold tracking-tight text-ex-dark-blue sm:text-6xl">
-            Services that help keep your organization secure
+            Unleash Potential: Your Gateway to Next-Gen IT Solutions
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We are pioneers of the digital approach, using leading-edge
-            technology to simplify procedures and apply executive for your
-            business
+            Discover a suite of services designed to take your business into the
+            future.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">

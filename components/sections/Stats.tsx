@@ -3,9 +3,9 @@ import bulb from "@/assets/icons/c_icon02.png";
 import spark from "@/assets/icons/c_icon03.png";
 import Image from "next/image";
 const stats = [
-  { id: 1, name: "Creative Members", value: "100+", icon: people },
-  { id: 2, name: "Successful Projects", value: "73k", icon: bulb },
-  { id: 3, name: "Award Won", value: "28+", icon: spark },
+  { id: 1, name: "Successful Projects", value: "500+", icon: people },
+  { id: 2, name: "Cost Advantage", value: "60%", icon: bulb },
+  { id: 3, name: "Services", value: "25+", icon: spark },
 ];
 
 export default function Stats() {
@@ -13,13 +13,9 @@ export default function Stats() {
     <div className="bg-ex-dark-blue py-10 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-between">
-          <div className="text-center lg:text-left ">
-            <p className=" text-lg leading-8 text-ex-blue">
-              Fun facts about our company
-            </p>
-
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-white sm:text-5xl">
-              Numbers speak
+          <div className="text-center lg:text-left max- ">
+            <h2 className="mt-4 text-3xl font-bold trackinG text-white sm:text-5xl">
+              By the Numbers: <br /> Expelee's Story of Success
             </h2>
           </div>
           <dl className="flex mt-12 lg:mt-0 flex-col lg:flex-row items-center justify-center">

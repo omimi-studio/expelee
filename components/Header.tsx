@@ -6,6 +6,7 @@ import logo from "@/assets/images/expelee_logo_light.png";
 import {
   Bars3Icon,
   ChartPieIcon,
+  ChevronRightIcon,
   CursorArrowRaysIcon,
   FingerPrintIcon,
   SquaresPlusIcon,
@@ -18,44 +19,45 @@ import {
   RectangleGroupIcon,
 } from "@heroicons/react/20/solid";
 import Image from "next/image";
-import {
-  BookOpenIcon,
-  BriefcaseIcon,
-  GlobeAltIcon,
-  InformationCircleIcon,
-  NewspaperIcon,
-  ShieldCheckIcon,
-  UserGroupIcon,
-  UsersIcon,
-  VideoCameraIcon,
-} from "@heroicons/react/24/outline";
 
-const engagement = [
-  { name: "About", href: "#", icon: InformationCircleIcon },
-  { name: "Customers", href: "#", icon: UsersIcon },
-  { name: "Press", href: "#", icon: NewspaperIcon },
-  { name: "Careers", href: "#", icon: BriefcaseIcon },
-  { name: "Privacy", href: "#", icon: ShieldCheckIcon },
-];
-const resources = [
-  { name: "Community", href: "#", icon: UserGroupIcon },
-  { name: "Partners", href: "#", icon: GlobeAltIcon },
-  { name: "Guides", href: "#", icon: BookOpenIcon },
-  { name: "Webinars", href: "#", icon: VideoCameraIcon },
-];
-const recentPosts = [
+const core_services = [
   {
-    id: 1,
-    title: "Boost your conversion rate",
-    href: "#",
-    date: "Mar 16, 2023",
-    datetime: "2023-03-16",
-    category: { title: "Marketing", href: "#" },
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    description:
-      "Et et dolore officia quis nostrud esse aute cillum irure do esse. Eiusmod ad deserunt cupidatat est magna Lorem.",
+    name: "Mobile App Development",
+    href: "mobile-app-dev",
   },
+  {
+    name: "Custom Software Development",
+    href: "custom-software-dev",
+  },
+  { name: "AI/ML Development", href: "ai-ml-dev" },
+  {
+    name: "Blockchain Development",
+    href: "blockchain-dev",
+  },
+  {
+    name: "Digital Transformation Services",
+    href: "digital-transformation",
+  },
+  {
+    name: "DevOps Consulting",
+    href: "devops-consulting",
+  },
+];
+const secondary_services = [
+  { name: "MEAN Stack Development ", href: "#" },
+  { name: "Jamstack Development", href: "#" },
+  { name: "Saas Development", href: "#" },
+  { name: "Front-end Development", href: "#" },
+  { name: "UI/UX Design Testing & QA", href: "#" },
+  { name: "Web App Development", href: "#" },
+];
+const others_services = [
+  { name: "Product Development  ", href: "#" },
+  { name: "MVP Development", href: "#" },
+  { name: "eCommerce Development", href: "#" },
+  { name: "Web Development", href: "#" },
+  { name: "IOT App Development", href: "#" },
+  { name: "AR/VR Development", href: "#" },
 ];
 
 const products = [
@@ -94,11 +96,11 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 border-b border-gray-700 isolate z-50 bg-transparent">
+    <header className="absolute inset-x-0 top-0 border-b-[0.3px] border-gray-900 isolate z-50 ">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -127,7 +129,7 @@ export default function Example() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover>
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
+            <Popover.Button className="flex items-center gap-x-1 text-base font-semibold leading-6 text-white">
               Services
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
@@ -148,45 +150,38 @@ export default function Example() {
                 <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-10 px-6 py-14 lg:grid-cols-2 lg:px-8">
                   <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8">
                     <div>
-                      <h3 className="text-sm font-medium leading-6 text-gray-500">
-                        Engagement
+                      <h3 className="text-xl font-bold leading-6 text-gray-900">
+                        Core Services
                       </h3>
                       <div className="mt-6 flow-root">
-                        <div className="-my-2">
-                          {engagement.map((item) => (
-                            <a
+                        <div className="my-2">
+                          {core_services.map((item) => (
+                            <Link
                               key={item.name}
                               href={item.href}
                               className="flex gap-x-4 py-2 text-sm font-semibold leading-6 text-gray-900"
                             >
-                              <item.icon
-                                className="h-6 w-6 flex-none text-gray-400"
-                                aria-hidden="true"
-                              />
+                              <ChevronRightIcon className="w-4 " />
                               {item.name}
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>
                     </div>
                     <div>
-                      <h3 className="text-sm font-medium leading-6 text-gray-500">
-                        Resources
+                      <h3 className="text-xl font-bold leading-6 text-gray-900">
+                        Other Services
                       </h3>
                       <div className="mt-6 flow-root">
-                        <div className="-my-2">
-                          {resources.map((item) => (
-                            <a
+                        <div className="my-2">
+                          {secondary_services.map((item) => (
+                            <Link
                               key={item.name}
                               href={item.href}
                               className="flex gap-x-4 py-2 text-sm font-semibold leading-6 text-gray-900"
                             >
-                              <item.icon
-                                className="h-6 w-6 flex-none text-gray-400"
-                                aria-hidden="true"
-                              />
                               {item.name}
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>
@@ -194,88 +189,86 @@ export default function Example() {
                   </div>
                   <div className="grid grid-cols-1 gap-10 sm:gap-8 lg:grid-cols-2">
                     <div>
-                      <h3 className="text-sm font-medium leading-6 text-gray-500">
-                        Resources
+                      <h3 className="text-xl font-bold leading-6 text-gray-900 hidden">
+                        Other Services
                       </h3>
-                      <div className="mt-6 flow-root">
+                      <div className="mt-12 flow-root">
                         <div className="-my-2">
-                          {resources.map((item) => (
-                            <a
+                          {others_services.map((item) => (
+                            <Link
                               key={item.name}
                               href={item.href}
                               className="flex gap-x-4 py-2 text-sm font-semibold leading-6 text-gray-900"
                             >
-                              <item.icon
-                                className="h-6 w-6 flex-none text-gray-400"
-                                aria-hidden="true"
-                              />
                               {item.name}
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>
                     </div>
-                    <h3 className="sr-only">Recent posts</h3>
-                    {recentPosts.map((post) => (
-                      <article
-                        key={post.id}
-                        className="relative isolate flex max-w-2xl flex-col gap-x-8 gap-y-6 sm:flex-row sm:items-start lg:flex-col lg:items-stretch"
-                      >
-                        <div className="relative flex-none">
-                          <img
-                            className="aspect-[2/1] w-full rounded-lg bg-gray-100 object-cover sm:aspect-[16/9] sm:h-32 lg:h-auto"
-                            src={post.imageUrl}
-                            alt=""
-                          />
-                          <div className="absolute inset-0 rounded-lg ring-1 ring-inset ring-gray-900/10" />
-                        </div>
-                        <div>
-                          <div className="flex items-center gap-x-4">
-                            <time
-                              dateTime={post.datetime}
-                              className="text-sm leading-6 text-gray-600"
-                            >
-                              {post.date}
-                            </time>
-                            <a
-                              href={post.category.href}
-                              className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-100"
-                            >
-                              {post.category.title}
-                            </a>
-                          </div>
-                          <h4 className="mt-2 text-sm font-semibold leading-6 text-gray-900">
-                            <a href={post.href}>
-                              <span className="absolute inset-0" />
-                              {post.title}
-                            </a>
-                          </h4>
-                          <p className="mt-2 text-sm leading-6 text-gray-600">
-                            {post.description}
-                          </p>
-                        </div>
-                      </article>
-                    ))}
+
+                    <article className="relative isolate flex max-w-2xl flex-col gap-x-8 gap-y-6 sm:flex-row sm:items-start lg:flex-col lg:items-stretch">
+                      <div className="relative flex-none ">
+                        <h3 className="text-lg font-bold text-black ">
+                          Pioneer disruptive business innovation with high-end
+                          creativity and world-class alliance.
+                        </h3>
+                      </div>
+                      <div>
+                        <h4 className="mt-1 text-sm font-semibold leading-6 text-gray-900">
+                          Contact Us
+                        </h4>
+                        <p className="mt-2 leading-6 text-gray-900">
+                          +971 558957731
+                        </p>
+                      </div>
+                      <div>
+                        <h4 className="mt-2 text-sm font-semibold leading-6 text-gray-900">
+                          Email Us
+                        </h4>
+                        <p className="mt-2 leading-6 text-gray-900">
+                          business@expelee.com
+                        </p>
+                        <p className="mt-1 leading-6 text-gray-690">
+                          careers@expelee.com
+                        </p>
+                      </div>
+                    </article>
                   </div>
                 </div>
               </Popover.Panel>
             </Transition>
           </Popover>
 
-          <Link  href="#team" className="text-sm font-semibold leading-6 text-white">
+          <Link
+            href="#team"
+            className="text-base font-semibold leading-6 text-white"
+          >
             Team
           </Link>
-          <Link href="#testimonials" className="text-sm font-semibold leading-6 text-white">
+          <Link
+            href="#testimonials"
+            className="text-base font-semibold leading-6 text-white"
+          >
             Testimonials
           </Link>
-          <Link href="#" className="text-sm font-semibold leading-6 text-white">
+          <Link
+            href="#"
+            className="text-base font-semibold leading-6 text-white"
+          >
             Our Works
           </Link>
 
-          <Link href="#" className="text-sm font-semibold leading-6 text-white">
+          <Link
+            href="#"
+            className="text-base font-semibold leading-6 text-white"
+          >
             Blog
           </Link>
-          <Link href="#" className="text-sm font-semibold leading-6 text-white">
+          <Link
+            href="#"
+            className="text-base font-semibold leading-6 text-white"
+          >
             Contact
           </Link>
         </Popover.Group>
@@ -334,7 +327,11 @@ export default function Example() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products, ...callsToAction].map((item) => (
+                        {[
+                          ...core_services,
+                          ...secondary_services,
+                          ...others_services,
+                        ].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"
@@ -355,13 +352,13 @@ export default function Example() {
                   Team
                 </Link>
                 <Link
-                  href="#"
+                  href="#team"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-50"
                 >
                   Testimonials
                 </Link>
                 <Link
-                  href="#"
+                  href="#testimonial"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-50"
                 >
                   Our Works

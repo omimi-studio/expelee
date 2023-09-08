@@ -2,8 +2,6 @@ import Blog from "@/components/sections/Blog";
 import CTA from "@/components/sections/CTA";
 import CTA2 from "@/components/sections/CTA2";
 import FAQs from "@/components/sections/FAQs";
-import Footer from "@/components/sections/Footer";
-import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import Newsletter from "@/components/sections/Newsletter";
 import Plans from "@/components/sections/Plans";
@@ -15,8 +13,7 @@ import Testimonials from "@/components/sections/Testimonial";
 
 export default function Home() {
   return (
-    <main className="relative">
-      <Header />
+    <div className="relative">
       <Hero />
       <CTA />
       <Stats />
@@ -29,7 +26,6 @@ export default function Home() {
       <Testimonials />
       <Blog />
       <Newsletter />
-      <Footer />
-    </main>
+    </div>
   );
 }

@@ -3,6 +3,33 @@ import bg_image from "@/assets/images/hero-bg.png";
 import hero_thumbnail from "@/assets/images/hero-thumb01-999x1024.png";
 import Image from "next/image";
 import Link from "next/link";
+import { UserGroupIcon } from "@heroicons/react/24/outline";
+const values = [
+  {
+    icon: UserGroupIcon,
+    header: "Vast Industry",
+    title: "12+ Years",
+    caption: "Globally Empowering Business of all Domains",
+  },
+  {
+    icon: UserGroupIcon,
+    header: "Methodology",
+    title: "Agile Method",
+    caption: "Flexible Execution with Powerful Engagement",
+  },
+  {
+    icon: UserGroupIcon,
+    header: "In-house Pre-vetted Developers",
+    title: "100+",
+    caption: "xpert Dedicated Web Developers for Hire",
+  },
+  {
+    icon: UserGroupIcon,
+    header: "Cost-Efficient Process",
+    title: "50%",
+    caption: "Save on Development and Maintenance Costs",
+  },
+];
 function Hero() {
   return (
     <div className="relative isolate">
@@ -27,7 +54,7 @@ function Hero() {
             </div>
           </div>
           <h1 className="mt-2 max-w-lg text-4xl font-bold tracking leading-relaxed text-white sm:text-6xl">
-            Empowering Technology Solutions for a Seamless Future
+            Mobile Application Development
           </h1>
           <p className="mt-6 text-lg leading-8 text-white">
             On the way to build and offer numerous products and services that
@@ -43,14 +70,22 @@ function Hero() {
           </div>
         </div>
         <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
-          <div className=" w-full">
-            <Image
-              src={hero_thumbnail}
-              alt="hero_thumbnail"
-              width={500}
-              height={500}
-              className=" object-cover w-full"
-            />
+          <div className=" w-full flex flex-col justify-center items-center gap-10">
+            {values.map((value, id) => (
+              <div
+                key={id}
+                className="bg-black w-full flex items-center rounded-xl"
+              >
+                <div className="p-10 bg-orange-600 rounded-l-xl rounded-r-full h-full aspect-square">
+                  <value.icon className="w-10 h-10 text-white" />
+                </div>{" "}
+                <div className="text-white px-7 py-2">
+                  <p>{value?.header}</p>
+                  <h3 className="text-3xl font-bold py-1">{value?.title}</h3>
+                  <p>{value?.caption}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
