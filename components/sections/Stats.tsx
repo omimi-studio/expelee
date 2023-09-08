@@ -15,7 +15,7 @@ export default function Stats() {
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="text-center lg:text-left max- ">
             <h2 className="mt-4 text-3xl font-bold trackinG text-white sm:text-5xl">
-              By the Numbers: <br /> Expelee's Story of Success
+              By the Numbers: <br /> Expelee&apos;s Story of Success
             </h2>
           </div>
           <dl className="flex mt-12 lg:mt-0 flex-col lg:flex-row items-center justify-center">
