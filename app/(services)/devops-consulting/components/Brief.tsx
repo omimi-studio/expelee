@@ -35,9 +35,9 @@ export default function Brief() {
             organizations to bridge the gap between development and operations
             seamlessly. Our dedicated team of DevOps experts understands that
             successful DevOps implementation is more than just a set of tools;
-            it's a culture, a mindset, and a methodology that accelerates
+            it&apos;s a culture, a mindset, and a methodology that accelerates
             delivery, improves quality, and fosters collaboration. With
-            Expelee's DevOps Consulting, we guide you through the entire DevOps
+            Expelee&apos;s DevOps Consulting, we guide you through the entire DevOps
             journey, from assessment and strategy to implementation and
             continuous improvement. Our mission is to help you achieve agility,
             streamline processes, and enhance your ability to respond to market
@@ -117,15 +117,15 @@ export default function Brief() {
               Selecting Expelee for DevOps Consulting means choosing a partner
               dedicated to catalyzing your DevOps transformation. Our
               experienced team brings a blend of technical expertise and
-              strategic vision to every engagement. We don't just offer
+              strategic vision to every engagement. We don&apos;t just offer
               solutions; we work collaboratively with you to co-create a DevOps
               culture that accelerates your software development lifecycle and
               enhances your operational efficiency. Our commitment extends
               beyond initial implementation, with continuous support, training,
               and optimization to ensure your DevOps practices remain agile and
               effective in an ever-changing technological landscape. When you
-              partner with Expelee, you're choosing excellence in DevOps
-              Consulting, enabling your organization to thrive in today's
+              partner with Expelee, you&apos;re choosing excellence in DevOps
+              Consulting, enabling your organization to thrive in today&apos;s
               fast-paced software development environment.
             </p>
           </div>

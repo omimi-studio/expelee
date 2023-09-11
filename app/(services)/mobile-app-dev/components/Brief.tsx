@@ -39,10 +39,10 @@ export default function Brief() {
             the evolving demands of the digital landscape and create tailor-made
             solutions that not only meet but exceed industry standards. Our
             relentless pursuit of excellence and user-centric design ensures
-            that your app will stand out in today's competitive marketplace.
+            that your app will stand out in today&apos;s competitive marketplace.
             <br />
             <br />
-            Expelee is not just a mobile application development service; it's
+            Expelee is not just a mobile application development service; it&apos;s
             your partner in achieving your mobile app goals. From ideation to
             deployment, we provide end-to-end support and expertise. We
             prioritize quality, rigorous testing, and ongoing support to ensure
@@ -70,7 +70,7 @@ export default function Brief() {
                   </strong>{" "}
                   Consultation: Begin by scheduling a consultation with our
                   expert team. Share your app concept, goals, and expectations.
-                  We'll provide valuable insights, refine your idea, and devise
+                  We&apos;ll provide valuable insights, refine your idea, and devise
                   a custom development plan tailored to your vision.
                 </span>
               </li>
@@ -99,7 +99,7 @@ export default function Brief() {
                     Testing & Deployment:
                   </strong>{" "}
                   Rigorous testing guarantees that your app functions flawlessly
-                  across various platforms and devices. Once we've verified its
+                  across various platforms and devices. Once we&apos;ve verified its
                   quality, we assist with launching it on the App Store and/or
                   Google Play, and we continue to provide support and updates.
                 </span>
@@ -110,7 +110,7 @@ export default function Brief() {
               Why Choose Us for Mobile Application Development:
             </h2>
             <p className="mt-6">
-              Choose Expelee for mobile application development, and you're
+              Choose Expelee for mobile application development, and you&apos;re
               choosing a partner dedicated to your success. With a track record
               of excellence, our team brings technical expertise and creative
               innovation to every project. We view our clients as valued
@@ -118,7 +118,7 @@ export default function Brief() {
               input shapes the final product. Our commitment extends beyond the
               launch, with continuous support and maintenance to keep your app
               up-to-date and problem-free. Expelee is more than just a
-              development service; we're your pathway to creating a mobile app
+              development service; we&apos;re your pathway to creating a mobile app
               that captivates users and drives your business forward.
             </p>
           </div>

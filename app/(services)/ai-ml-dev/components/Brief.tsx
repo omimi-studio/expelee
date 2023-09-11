@@ -48,7 +48,7 @@ export default function Brief() {
             with a consultation to understand your unique requirements and
             objectives. From there, our team of AI/ML specialists designs and
             develops a customized solution that aligns perfectly with your
-            goals. Rigorous testing ensures the model's accuracy and
+            goals. Rigorous testing ensures the model&apos;s accuracy and
             performance. We then assist with the integration and provide ongoing
             support and fine-tuning to ensure your AI/ML application continues
             to deliver value.
@@ -70,7 +70,7 @@ export default function Brief() {
                     Consulatation:
                   </strong>{" "}
                   Begin with a consultation with our AI/ML experts. Share your
-                  objectives and requirements, and we'll work closely with you
+                  objectives and requirements, and we&apos;ll work closely with you
                   to understand your vision and goals.
                 </span>
               </li>
@@ -108,7 +108,7 @@ export default function Brief() {
               Why Choose Us for AI/ML Development:
             </h2>
             <p className="mt-6">
-              Choose Expelee for AI/ML Development, and you're choosing a
+              Choose Expelee for AI/ML Development, and you&apos;re choosing a
               partner dedicated to your success. Our experienced team brings
               deep expertise and creative innovation to every AI/ML project. We
               view our clients as valued collaborators and work closely with you
@@ -116,7 +116,7 @@ export default function Brief() {
               commitment extends beyond the initial deployment, with continuous
               support, monitoring, and optimization to keep your AI/ML
               application at its peak performance. Expelee is more than just a
-              development service; we're your pathway to leveraging the full
+              development service; we&apos;re your pathway to leveraging the full
               potential of AI and ML to drive business growth and innovation.
               When you partner with Expelee, you partner with excellence in
               AI/ML Development.

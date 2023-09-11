@@ -34,7 +34,7 @@ export default function Brief() {
             Expelee is your strategic ally for Digital Transformation Services,
             dedicated to reimagining your business for the digital age. Our
             seasoned team of experts understands that successful digital
-            transformation goes beyond technology; it's about reshaping
+            transformation goes beyond technology; it&apos;s about reshaping
             processes, cultures, and strategies to thrive in a rapidly evolving
             landscape. We work collaboratively with you to craft a tailored
             transformation roadmap that leverages the latest digital
@@ -113,7 +113,7 @@ export default function Brief() {
               Why Choose Us for Digital Transformation Services:
             </h2>
             <p className="mt-6">
-              Choose Expelee for Digital Transformation Services, and you're
+              Choose Expelee for Digital Transformation Services, and you&apos;re
               selecting a partner committed to your digital evolution. Our
               experienced team brings a blend of technical expertise and
               strategic vision to every transformation project. We see our
@@ -123,7 +123,7 @@ export default function Brief() {
               with ongoing support, training, and refinement to ensure your
               digital transformation remains agile and effective in an
               ever-changing landscape. Expelee is not just a service provider;
-              we're your catalyst for a successful digital future, helping your
+              we&apos;re your catalyst for a successful digital future, helping your
               organization thrive in the digital age. When you partner with
               Expelee, you partner with excellence in Digital Transformation
               Services.

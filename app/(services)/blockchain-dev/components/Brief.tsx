@@ -36,8 +36,8 @@ export default function Brief() {
             technologies. Our dedicated team of blockchain experts is committed
             to creating innovative solutions that leverage the power of
             blockchain to enhance transparency, security, and efficiency. With a
-            deep understanding of blockchain's potential, we craft tailored
-            applications that address your unique needs, whether it's in
+            deep understanding of blockchain&apos;s potential, we craft tailored
+            applications that address your unique needs, whether it&apos;s in
             finance, supply chain, healthcare, or any other sector. We pride
             ourselves on staying at the forefront of blockchain advancements,
             ensuring that your project not only keeps up with industry standards
@@ -70,7 +70,7 @@ export default function Brief() {
                     Consulatation:
                   </strong>{" "}
                   Kickstart your blockchain journey with a consultation. Share
-                  your business goals, and we'll work closely with you to
+                  your business goals, and we&apos;ll work closely with you to
                   understand how blockchain can enhance your operations and
                   processes.
                 </span>
@@ -110,7 +110,7 @@ export default function Brief() {
               Why Choose Us for Blockchain Development:
             </h2>
             <p className="mt-6">
-              Choose Expelee for Blockchain Development, and you're choosing a
+              Choose Expelee for Blockchain Development, and you&apos;re choosing a
               partner dedicated to your success in the decentralized world. Our
               experienced team brings technical expertise and creative
               innovation to every blockchain project. We view our clients as
@@ -119,8 +119,8 @@ export default function Brief() {
               goals. Our commitment extends beyond the launch, with continuous
               support, monitoring, and updates to keep your blockchain
               application secure and efficient. Expelee is more than just a
-              development service; we're your pathway to leveraging blockchain's
-              transformative power to enhance your business's transparency,
+              development service; we&apos;re your pathway to leveraging blockchain&apos;s
+              transformative power to enhance your business&apos;s transparency,
               security, and efficiency. When you partner with Expelee, you
               partner with excellence in Blockchain Development.
             </p>

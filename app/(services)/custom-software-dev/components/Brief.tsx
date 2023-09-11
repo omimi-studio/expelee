@@ -40,7 +40,7 @@ export default function Brief() {
             custom software that optimizes processes, enhances efficiency, and
             drives business growth. We prioritize your success, ensuring that
             the software we deliver not only meets but exceeds your
-            expectations. When you choose Expelee, you're choosing a reliable
+            expectations. When you choose Expelee, you&apos;re choosing a reliable
             technology partner dedicated to transforming your concepts into
             reality.
             <br />
@@ -71,7 +71,7 @@ export default function Brief() {
                   </strong>{" "}
                   Consultation: Start by scheduling a consultation with our
                   expert team. Share your software needs and objectives, and
-                  we'll work closely with you to understand your vision and
+                  we&apos;ll work closely with you to understand your vision and
                   define project goals
                 </span>
               </li>
@@ -100,7 +100,7 @@ export default function Brief() {
                     Testing & Deployment:
                   </strong>{" "}
                   Rigorous testing ensures your software performs flawlessly
-                  across various environments. Once we're confident in its
+                  across various environments. Once we&apos;re confident in its
                   quality, we assist with deployment and continue to provide
                   support and updates.
                 </span>
@@ -111,7 +111,7 @@ export default function Brief() {
               Why Choose Us for Custom Software Development:
             </h2>
             <p className="mt-6">
-              Choose Expelee for Custom Software Development, and you're
+              Choose Expelee for Custom Software Development, and you&apos;re
               choosing a partner dedicated to your success. Our experienced team
               brings technical expertise and creative innovation to every
               project. We view our clients as valued partners and work closely
@@ -119,7 +119,7 @@ export default function Brief() {
               product. Our commitment extends beyond the launch, with continuous
               support and maintenance to keep your software up-to-date and
               problem-free. Expelee is more than just a development service;
-              we're your pathway to creating software that optimizes your
+              we&apos;re your pathway to creating software that optimizes your
               business processes, enhances efficiency, and helps your business
               thrive. When you partner with Expelee, you partner with excellence
               in Custom Software Development.
