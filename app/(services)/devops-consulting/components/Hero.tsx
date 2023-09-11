@@ -1,18 +1,20 @@
 import React from "react";
 import bg_image from "@/assets/images/hero-bg.png";
-import hero_thumbnail from "@/assets/images/hero-thumb01-999x1024.png";
 import Image from "next/image";
 import Link from "next/link";
 import { UserGroupIcon } from "@heroicons/react/24/outline";
+import { GlobeAltIcon } from "@heroicons/react/24/outline";
+import { ArrowPathRoundedSquareIcon } from "@heroicons/react/24/solid";
+import { BanknotesIcon } from "@heroicons/react/24/outline";
 const values = [
   {
-    icon: UserGroupIcon,
+    icon: GlobeAltIcon,
     header: "Vast Industry",
-    title: "12+ Years",
+    title: "2+ Years",
     caption: "Globally Empowering Business of all Domains",
   },
   {
-    icon: UserGroupIcon,
+    icon: ArrowPathRoundedSquareIcon,
     header: "Methodology",
     title: "Agile Method",
     caption: "Flexible Execution with Powerful Engagement",
@@ -20,11 +22,11 @@ const values = [
   {
     icon: UserGroupIcon,
     header: "In-house Pre-vetted Developers",
-    title: "100+",
+    title: "20+",
     caption: "xpert Dedicated Web Developers for Hire",
   },
   {
-    icon: UserGroupIcon,
+    icon: BanknotesIcon,
     header: "Cost-Efficient Process",
     title: "50%",
     caption: "Save on Development and Maintenance Costs",
@@ -49,12 +51,12 @@ function Hero() {
           <div className="flex">
             <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ">
               <span className="font-semibold text-white">
-                Expelee: Where Ideas Meet Innovation
+              Expelee: Bridging Your DevOps Divide.
               </span>
             </div>
           </div>
           <h1 className="mt-2 max-w-lg text-4xl font-bold tracking leading-relaxed text-white sm:text-6xl">
-            Mobile Application Development
+            Dev ops Consulting
           </h1>
           <p className="mt-6 text-lg leading-8 text-white">
             On the way to build and offer numerous products and services that

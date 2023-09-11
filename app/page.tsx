@@ -21,11 +21,11 @@ export default function Home() {
       <CTA2 />
       <Process />
       <Team />
-      <Plans />
-      <FAQs />
+      {/* <Plans /> */}
+      {/* <FAQs /> */}
       <Testimonials />
-      <Blog />
-      <Newsletter />
+      {/* <Blog /> */}
+      {/* <Newsletter /> */}
     </div>
   );
 }

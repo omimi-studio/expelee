@@ -2,89 +2,63 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { useRef } from "react";
 import { StarIcon } from "@heroicons/react/20/solid";
+import sarah from "@/assets/images/Sarah.jpg";
+import michael from "@/assets/images/Michael.jpg";
+import emily from "@/assets/images/Emily.jpg";
+import david from "@/assets/images/David.jpg";
+import jennifer from "@/assets/images/jeneffer.jpg";
+import john from "@/assets/images/John.jpg";
+import Image from "next/image";
 const testimonials = [
   {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+    body: "Expelee's vetting service ensured the authenticity of our users. Their transparency, affordability, and proactive approach made them our go-to partner for blockchain project vetting.",
     author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Sarah Johnson",
+      handle: "CEO at InnovateTech",
+      imageUrl: sarah,
     },
   },
   {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+    body: "Expelee's audit design service provided us with a thorough analysis of our smart contracts. Their transparency, affordable pricing, and proactive suggestions enhanced the security of our blockchain project.",
     author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Michael Davis",
+      handle: "CFO at Stellar Solutions",
+      imageUrl: michael,
     },
   },
   {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+    body: "Expelee's NFT creation service helped us establish a trusted marketplace. Their transparent process, affordable pricing, and proactive support ensured a smooth and successful launch of our NFT project.",
     author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Emily Thompson",
+      handle: "Marketing Manager at ArtCollect",
+      imageUrl: emily,
     },
   },
   {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+    body: "Expelee's website development service delivered a decentralized and secure platform. Their transparent approach, affordable pricing, and proactive implementation of blockchain technologies exceeded our expectations.",
     author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "David Wilson",
+      handle: "CTO at TechWorld",
+      imageUrl: david,
     },
   },
   {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+    body: "Expelee's DApp creation service brought our gaming concept to life. Their transparent communication, affordable pricing, and proactive problem-solving made them the ideal partner for our blockchain-based game development.",
     author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Jennifer Roberts",
+      handle: "Project Manager at GameMakers",
+      imageUrl: jennifer,
     },
   },
+
   {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+    body: "Expelee's DEX development service revolutionized our digital asset trading platform. Their transparent approach, affordable pricing, and proactive solutions enhanced security and efficiency in our decentralized exchange.",
     author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "John Brown",
+      handle: " Operations Manager at CryptoTrade",
+      imageUrl: john,
     },
   },
-  {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
-    author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-  },
-  {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
-    author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-  },
-  {
-    body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
-    author: {
-      name: "Leslie Alexander",
-      handle: "lesliealexander",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-  },
-  // More testimonials...
 ];
 
 export default function Testimonials() {
@@ -160,17 +134,21 @@ export default function Testimonials() {
                     <p>{`“${testimonial.body}”`}</p>
                   </blockquote>
                   <figcaption className="mt-10 flex items-center gap-x-6">
-                    <img
+                    <Image
                       className="h-12 w-12 rounded-full bg-gray-50"
                       src={testimonial.author.imageUrl}
-                      alt=""
+                      alt={testimonial.author.handle}
+                      width={100}
+                      height={100}
                     />
                     <div className="text-sm leading-6">
                       <div className="font-semibold text-gray-900">
                         {" "}
                         {testimonial.author.name}
                       </div>
-                      <div className="mt-0.5 text-gray-600">{`@${testimonial.author.handle}`}</div>
+                      <div className="mt-0.5 text-gray-600">
+                        {testimonial.author.handle}
+                      </div>
                     </div>
                   </figcaption>
                 </figure>

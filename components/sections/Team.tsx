@@ -1,40 +1,25 @@
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
-import person from "@/assets/images/hero-thumb01-999x1024.png";
+import t1 from "@/assets/images/t1.png";
+import t2 from "@/assets/images/t2.png";
+import t3 from "@/assets/images/t3.png";
 
 const people = [
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl: person,
+    name: "Divyesh Gupta",
+    role: "Co-Founder , CTO",
+    imageUrl: t1,
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl: person,
+    name: "Anandhu Santhosh Kumar",
+    role: "Co-Founder, CEO",
+    imageUrl: t2,
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl: person,
+    name: "Ritik Jain",
+    role: "Co-Founder , COO",
+    imageUrl: t3,
   },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl: person,
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl: person,
-  },
-  {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl: person,
-  },
-
-  // More people...
 ];
 
 export default function Team() {
@@ -69,7 +54,7 @@ export default function Team() {
               <li key={person.name}>
                 <div className="flex items-center  justify-center flex-col gap-x-6">
                   <Image
-                    className="h-32 w-32 rounded-full"
+                    className="h-40 w-40 rounded-full object-cover object-top"
                     src={person.imageUrl}
                     alt=""
                     width={500}

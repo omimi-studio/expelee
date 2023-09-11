@@ -253,7 +253,7 @@ export default function Header() {
             Testimonials
           </Link>
           <Link
-            href="#"
+            href="#works"
             className="text-base font-semibold leading-6 text-white"
           >
             Our Works

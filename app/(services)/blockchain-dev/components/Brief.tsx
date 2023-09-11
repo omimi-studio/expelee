@@ -23,7 +23,7 @@ export default function Brief() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Expelee: Your App, Our Expertise!
+            Expelee: Pioneering Your Blockchain Journey
           </h2>
         </div>
         <div className="mx-auto mt-12 max-w-7xl lg:mx-0">
@@ -31,26 +31,27 @@ export default function Brief() {
             About Our Service:
           </h1>
           <p className="mt-6 text-xl leading-8 text-gray-700">
-            At Expelee, we specialize in crafting cutting-edge mobile
-            applications that redefine user experiences and drive business
-            success. With a deep-rooted commitment to innovation, our dedicated
-            team of developers, designers, and strategists collaborates closely
-            with you to transform your app concepts into reality. We understand
-            the evolving demands of the digital landscape and create tailor-made
-            solutions that not only meet but exceed industry standards. Our
-            relentless pursuit of excellence and user-centric design ensures
-            that your app will stand out in today's competitive marketplace.
+            Expelee is your trusted partner for Blockchain Development, leading
+            the way in revolutionizing businesses through decentralized
+            technologies. Our dedicated team of blockchain experts is committed
+            to creating innovative solutions that leverage the power of
+            blockchain to enhance transparency, security, and efficiency. With a
+            deep understanding of blockchain's potential, we craft tailored
+            applications that address your unique needs, whether it's in
+            finance, supply chain, healthcare, or any other sector. We pride
+            ourselves on staying at the forefront of blockchain advancements,
+            ensuring that your project not only keeps up with industry standards
+            but also sets new standards of excellence.
             <br />
             <br />
-            Expelee is not just a mobile application development service; it's
-            your partner in achieving your mobile app goals. From ideation to
-            deployment, we provide end-to-end support and expertise. We
-            prioritize quality, rigorous testing, and ongoing support to ensure
-            your app performs seamlessly across various platforms and devices.
-            With years of experience, a collaborative approach, and a passion
-            for turning ideas into exceptional mobile experiences, Expelee is
-            the smart choice for those who demand excellence in mobile app
-            development.
+            Our Blockchain Development service is a collaborative journey. We
+            initiate it with a consultation to understand your specific
+            requirements and business goals. Our skilled team then designs and
+            develops a customized blockchain solution that seamlessly integrates
+            into your existing systems. Rigorous testing guarantees its security
+            and functionality. We assist with deployment and continue to provide
+            ongoing support and maintenance to ensure your blockchain
+            application remains at the cutting edge of technology.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -68,10 +69,10 @@ export default function Brief() {
                   <strong className="font-semibold text-gray-900">
                     Consulatation:
                   </strong>{" "}
-                  Consultation: Begin by scheduling a consultation with our
-                  expert team. Share your app concept, goals, and expectations.
-                  We'll provide valuable insights, refine your idea, and devise
-                  a custom development plan tailored to your vision.
+                  Kickstart your blockchain journey with a consultation. Share
+                  your business goals, and we'll work closely with you to
+                  understand how blockchain can enhance your operations and
+                  processes.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -83,10 +84,9 @@ export default function Brief() {
                   <strong className="font-semibold text-gray-900">
                     Development & Design:
                   </strong>{" "}
-                  Our talented designers and developers will craft a visually
-                  stunning, user-friendly mobile app that aligns perfectly with
-                  your vision. We prioritize seamless user experiences to keep
-                  your users engaged.
+                  Our team of blockchain specialists designs and develops a
+                  customized solution that aligns perfectly with your needs,
+                  emphasizing security and efficiency.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -98,28 +98,31 @@ export default function Brief() {
                   <strong className="font-semibold text-gray-900">
                     Testing & Deployment:
                   </strong>{" "}
-                  Rigorous testing guarantees that your app functions flawlessly
-                  across various platforms and devices. Once we've verified its
-                  quality, we assist with launching it on the App Store and/or
-                  Google Play, and we continue to provide support and updates.
+                  Rigorous testing ensures your blockchain application is secure
+                  and functional. We assist with seamless deployment and provide
+                  ongoing support and maintenance to keep your blockchain
+                  solution running smoothly.
                 </span>
               </li>
             </ul>
 
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Why Choose Us for Mobile Application Development:
+              Why Choose Us for Blockchain Development:
             </h2>
             <p className="mt-6">
-              Choose Expelee for mobile application development, and you're
-              choosing a partner dedicated to your success. With a track record
-              of excellence, our team brings technical expertise and creative
-              innovation to every project. We view our clients as valued
-              partners and work closely with you at every stage, ensuring your
-              input shapes the final product. Our commitment extends beyond the
-              launch, with continuous support and maintenance to keep your app
-              up-to-date and problem-free. Expelee is more than just a
-              development service; we're your pathway to creating a mobile app
-              that captivates users and drives your business forward.
+              Choose Expelee for Blockchain Development, and you're choosing a
+              partner dedicated to your success in the decentralized world. Our
+              experienced team brings technical expertise and creative
+              innovation to every blockchain project. We view our clients as
+              valued collaborators and work closely with you at every stage,
+              ensuring your blockchain solution aligns perfectly with your
+              goals. Our commitment extends beyond the launch, with continuous
+              support, monitoring, and updates to keep your blockchain
+              application secure and efficient. Expelee is more than just a
+              development service; we're your pathway to leveraging blockchain's
+              transformative power to enhance your business's transparency,
+              security, and efficiency. When you partner with Expelee, you
+              partner with excellence in Blockchain Development.
             </p>
           </div>
         </div>

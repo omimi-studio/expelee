@@ -23,7 +23,7 @@ export default function Brief() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Expelee: Your App, Our Expertise!
+            Expelee: Your Vision, Our Code.
           </h2>
         </div>
         <div className="mx-auto mt-12 max-w-7xl lg:mx-0">
@@ -31,26 +31,27 @@ export default function Brief() {
             About Our Service:
           </h1>
           <p className="mt-6 text-xl leading-8 text-gray-700">
-            At Expelee, we specialize in crafting cutting-edge mobile
-            applications that redefine user experiences and drive business
-            success. With a deep-rooted commitment to innovation, our dedicated
-            team of developers, designers, and strategists collaborates closely
-            with you to transform your app concepts into reality. We understand
-            the evolving demands of the digital landscape and create tailor-made
-            solutions that not only meet but exceed industry standards. Our
-            relentless pursuit of excellence and user-centric design ensures
-            that your app will stand out in today's competitive marketplace.
+            At Expelee, we are your trusted partner for Custom Software
+            Development. We specialize in tailoring software solutions that
+            align perfectly with your unique business needs. Our dedicated team
+            of developers and engineers is committed to turning your ideas into
+            powerful, user-friendly software applications. With a blend of
+            cutting-edge technologies and deep industry expertise, we create
+            custom software that optimizes processes, enhances efficiency, and
+            drives business growth. We prioritize your success, ensuring that
+            the software we deliver not only meets but exceeds your
+            expectations. When you choose Expelee, you're choosing a reliable
+            technology partner dedicated to transforming your concepts into
+            reality.
             <br />
             <br />
-            Expelee is not just a mobile application development service; it's
-            your partner in achieving your mobile app goals. From ideation to
-            deployment, we provide end-to-end support and expertise. We
-            prioritize quality, rigorous testing, and ongoing support to ensure
-            your app performs seamlessly across various platforms and devices.
-            With years of experience, a collaborative approach, and a passion
-            for turning ideas into exceptional mobile experiences, Expelee is
-            the smart choice for those who demand excellence in mobile app
-            development.
+            Our Custom Software Development service is a collaborative journey.
+            We begin with a consultation to understand your specific
+            requirements and project objectives. From there, our talented team
+            of developers and designers crafts a customized solution that
+            prioritizes intuitive user interfaces and seamless functionality.
+            Rigorous testing guarantees flawless performance, and our ongoing
+            support ensures your software remains up-to-date and problem-free.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -68,10 +69,10 @@ export default function Brief() {
                   <strong className="font-semibold text-gray-900">
                     Consulatation:
                   </strong>{" "}
-                  Consultation: Begin by scheduling a consultation with our
-                  expert team. Share your app concept, goals, and expectations.
-                  We'll provide valuable insights, refine your idea, and devise
-                  a custom development plan tailored to your vision.
+                  Consultation: Start by scheduling a consultation with our
+                  expert team. Share your software needs and objectives, and
+                  we'll work closely with you to understand your vision and
+                  define project goals
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -83,10 +84,10 @@ export default function Brief() {
                   <strong className="font-semibold text-gray-900">
                     Development & Design:
                   </strong>{" "}
-                  Our talented designers and developers will craft a visually
-                  stunning, user-friendly mobile app that aligns perfectly with
-                  your vision. We prioritize seamless user experiences to keep
-                  your users engaged.
+                  Our talented developers and designers create a customized
+                  software solution that aligns perfectly with your
+                  requirements, emphasizing intuitive user interfaces and
+                  seamless functionality.
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -98,28 +99,30 @@ export default function Brief() {
                   <strong className="font-semibold text-gray-900">
                     Testing & Deployment:
                   </strong>{" "}
-                  Rigorous testing guarantees that your app functions flawlessly
-                  across various platforms and devices. Once we've verified its
-                  quality, we assist with launching it on the App Store and/or
-                  Google Play, and we continue to provide support and updates.
+                  Rigorous testing ensures your software performs flawlessly
+                  across various environments. Once we're confident in its
+                  quality, we assist with deployment and continue to provide
+                  support and updates.
                 </span>
               </li>
             </ul>
 
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Why Choose Us for Mobile Application Development:
+              Why Choose Us for Custom Software Development:
             </h2>
             <p className="mt-6">
-              Choose Expelee for mobile application development, and you're
-              choosing a partner dedicated to your success. With a track record
-              of excellence, our team brings technical expertise and creative
-              innovation to every project. We view our clients as valued
-              partners and work closely with you at every stage, ensuring your
-              input shapes the final product. Our commitment extends beyond the
-              launch, with continuous support and maintenance to keep your app
-              up-to-date and problem-free. Expelee is more than just a
-              development service; we're your pathway to creating a mobile app
-              that captivates users and drives your business forward.
+              Choose Expelee for Custom Software Development, and you're
+              choosing a partner dedicated to your success. Our experienced team
+              brings technical expertise and creative innovation to every
+              project. We view our clients as valued partners and work closely
+              with you at every stage, ensuring your input shapes the final
+              product. Our commitment extends beyond the launch, with continuous
+              support and maintenance to keep your software up-to-date and
+              problem-free. Expelee is more than just a development service;
+              we're your pathway to creating software that optimizes your
+              business processes, enhances efficiency, and helps your business
+              thrive. When you partner with Expelee, you partner with excellence
+              in Custom Software Development.
             </p>
           </div>
         </div>

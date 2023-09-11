@@ -34,7 +34,7 @@ const cards = [
 
 export default function Process() {
   return (
-    <div className="relative isolate overflow-hidden bg-ex-gray py-24 sm:py-32">
+    <div id="works" className="relative isolate overflow-hidden bg-ex-gray py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-base font-semibold leading-7 text-ex-blue">
