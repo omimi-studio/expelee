@@ -13,42 +13,42 @@ const cards = [
     description:
       "Crafting unparalleled mobile experiences tailored to your business needs",
     icon: app_security_icon,
-    link: "/",
+    link: "mobile-app-dev",
   },
   {
     name: "Custom Software Development",
     description:
       "Bespoke solutions that transform your unique vision into dynamic software.",
     icon: mobile_security_icon,
-    link: "/",
+    link: "custom-software-dev",
   },
   {
     name: "AI/ML Development",
     description:
       "Harness the power of AI and ML to drive innovation and foster intelligent business growth.",
     icon: risk_icon,
-    link: "/",
+    link: "ai-ml-dev",
   },
   {
     name: "Blockchain Development",
     description:
       "everaging blockchain technology to build transparent, secure, and innovative solutions for your business.",
     icon: security_icon,
-    link: "/",
+    link: "blockchain-dev",
   },
   {
     name: "Digital Transformation Services",
     description:
       "Reimagine your business in the digital age with strategies that are forward-thinking and transformative.",
     icon: web_icon,
-    link: "/",
+    link: "digital-transformation",
   },
   {
     name: "DevOps Consulting",
     description:
       "Expert guidance to streamline your operations and foster a culture of continuous improvement with DevOps.",
     icon: cloud_icon,
-    link: "/",
+    link: "devops-consulting",
   },
 ];
 
@@ -70,7 +70,8 @@ export default function Services() {
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
           {cards.map((card) => (
-            <div
+            <Link
+              href={card.link}
               key={card.name}
               className="flex hover:scale-105 ease-in-out items-center justify-center flex-col gap-x-4 rounded-xl bg-white p-6  ring-1 ring-inset ring-gray-200 hover:ring-0 shadow-sm hover:shadow-lg"
             >
@@ -94,7 +95,7 @@ export default function Services() {
                 Read More{" "}
                 <ArrowLongRightIcon className="w-6 font-thin inline-flex" />
               </Link>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

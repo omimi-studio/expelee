@@ -35,7 +35,7 @@ function Hero() {
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <Link
-              href="/"
+              href="#more"
               className="rounded-full bg-white px-10 py-4 text-sm font-semibold text-ex-blue shadow-sm hover:bg-ex-dark-blue hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Learn More

@@ -7,7 +7,7 @@ const WebAppDev = () => {
   return (
     <div>
       <Hero />
-      <LogoCloud />
+      {/* <LogoCloud /> */}
       <Brief />
     </div>
   );

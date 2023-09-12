@@ -5,19 +5,10 @@ import Link from "next/link";
 import logo from "@/assets/images/expelee_logo_light.png";
 import {
   Bars3Icon,
-  ChartPieIcon,
   ChevronRightIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-  RectangleGroupIcon,
-} from "@heroicons/react/20/solid";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 
 const core_services = [
@@ -60,38 +51,6 @@ const others_services = [
   { name: "AR/VR Development", href: "#" },
 ];
 
-const products = [
-  {
-    name: "Analytics",
-    description: "Get a better understanding where your traffic is coming from",
-    href: "#",
-    icon: ChartPieIcon,
-  },
-  {
-    name: "Engagement",
-    description: "Speak directly to your customers with our engagement tool",
-    href: "#",
-    icon: CursorArrowRaysIcon,
-  },
-  {
-    name: "Security",
-    description: "Your customers’ data will be safe and secure",
-    href: "#",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Integrations",
-    description: "Your customers’ data will be safe and secure",
-    href: "#",
-    icon: SquaresPlusIcon,
-  },
-];
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-  { name: "View all products", href: "#", icon: RectangleGroupIcon },
-];
-
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
@@ -102,12 +61,12 @@ export default function Header() {
   return (
     <header className="absolute inset-x-0 top-0 border-b-[0.3px] border-gray-900 isolate z-50 ">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">EXPELEE</span>
             <Image
               src={logo}
               alt="expelee logo light"
@@ -120,7 +79,7 @@ export default function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-100"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -291,7 +250,7 @@ export default function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-ex-blue px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">EXPELEE</span>
 
               <Image
                 src={logo}
@@ -336,7 +295,7 @@ export default function Header() {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-100 hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-100 "
                           >
                             {item.name}
                           </Disclosure.Button>
@@ -346,38 +305,38 @@ export default function Header() {
                   )}
                 </Disclosure>
                 <Link
-                  href="/#team"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-50"
+                  onClick={() => setMobileMenuOpen(false)}
+                  href="#team"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
                 >
                   Team
                 </Link>
                 <Link
-                  href="#team"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-50"
+                  onClick={() => setMobileMenuOpen(false)}
+                  href="#testimonials"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
                 >
                   Testimonials
                 </Link>
                 <Link
-                  href="#testimonial"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-50"
+                  onClick={() => setMobileMenuOpen(false)}
+                  href="#work"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
                 >
                   Our Works
                 </Link>
+
                 <Link
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-50"
-                >
-                  Blog
-                </Link>
-                <Link
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-gray-50"
+                  onClick={() => setMobileMenuOpen(false)}
+                  href="/"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
                 >
                   Contact
                 </Link>
               </div>
               <div className="py-6">
                 <Link
+                  onClick={() => setMobileMenuOpen(false)}
                   href="/"
                   className="rounded-full bg-white px-10 py-4 text-sm font-semibold text-ex-blue shadow-sm hover:bg-ex-dark-blue hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >

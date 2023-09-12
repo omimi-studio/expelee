@@ -2,29 +2,45 @@ import Image from "next/image";
 import logo from "@/assets/images/expelee_logo_light.png";
 const navigation = {
   solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
+    {
+      name: "Mobile App Development",
+      href: "mobile-app-dev",
+    },
+    {
+      name: "Custom Software Development",
+      href: "custom-software-dev",
+    },
+    { name: "AI/ML Development", href: "ai-ml-dev" },
+    {
+      name: "Blockchain Development",
+      href: "blockchain-dev",
+    },
+    {
+      name: "Digital Transformation Services",
+      href: "digital-transformation",
+    },
+    {
+      name: "DevOps Consulting",
+      href: "devops-consulting",
+    },
   ],
   support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
+    { name: "MEAN Stack Development ", href: "#" },
+    { name: "Jamstack Development", href: "#" },
+    { name: "Saas Development", href: "#" },
+    { name: "Front-end Development", href: "#" },
+    { name: "UI/UX Design Testing & QA", href: "#" },
+    { name: "Web App Development", href: "#" },
   ],
   company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: "Product Development  ", href: "#" },
+    { name: "MVP Development", href: "#" },
+    { name: "eCommerce Development", href: "#" },
+    { name: "Web Development", href: "#" },
+    { name: "IOT App Development", href: "#" },
+    { name: "AR/VR Development", href: "#" },
   ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-  ],
+
   social: [
     {
       name: "Facebook",
@@ -97,7 +113,7 @@ export default function Footer() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="lg:grid lg:grid-cols-2 xl:gap-8">
           <div className="space-y-8">
             <Image
               src={logo}
@@ -123,67 +139,49 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Solutions
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Support
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.support.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+          <div className="mt-16 grid   lg:grid-cols-3 gap-8  xl:mt-0">
+            <div>
+              <h3 className="text-sm font-semibold leading-6 text-white">
+                Core Services
+              </h3>
+              <ul role="list" className="mt-6 space-y-4">
+                {navigation.solutions.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-300 hover:text-white"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="mt-10 md:mt-0">
+              <h3 className="text-sm font-semibold leading-6 text-white">
+                Other Services
+              </h3>
+              <ul role="list" className="mt-6 space-y-4">
+                {navigation.support.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-sm leading-6 text-gray-300 hover:text-white"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="mt-10 md:mt-0">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Company
+                  {" "}
+                  Other Services
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Legal
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
