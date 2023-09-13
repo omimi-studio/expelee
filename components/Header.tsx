@@ -225,7 +225,7 @@ export default function Header() {
             Blog
           </Link>
           <Link
-            href="#"
+            href="https://t.me/Ritz_Expelee"
             className="text-base font-semibold leading-6 text-white"
           >
             Contact
@@ -233,7 +233,7 @@ export default function Header() {
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
-            href="/"
+            href="https://t.me/Ritz_Expelee"
             className="rounded-full bg-white px-10 py-4 text-sm font-semibold text-ex-blue shadow-sm hover:bg-ex-dark-blue hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Get a Quote
@@ -328,7 +328,7 @@ export default function Header() {
 
                 <Link
                   onClick={() => setMobileMenuOpen(false)}
-                  href="/"
+                  href="https://t.me/Ritz_Expelee"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
                 >
                   Contact
@@ -337,7 +337,7 @@ export default function Header() {
               <div className="py-6">
                 <Link
                   onClick={() => setMobileMenuOpen(false)}
-                  href="/"
+                  href="https://t.me/Ritz_Expelee"
                   className="rounded-full bg-white px-10 py-4 text-sm font-semibold text-ex-blue shadow-sm hover:bg-ex-dark-blue hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get a Quote
