@@ -115,14 +115,14 @@ export default function Header() {
                       <div className="mt-6 flow-root">
                         <div className="my-2">
                           {core_services.map((item) => (
-                            <Link
+                            <a
                               key={item.name}
                               href={item.href}
                               className="flex gap-x-4 py-2 text-sm font-semibold leading-6 text-gray-900"
                             >
                               <ChevronRightIcon className="w-4 " />
                               {item.name}
-                            </Link>
+                            </a>
                           ))}
                         </div>
                       </div>
@@ -134,13 +134,13 @@ export default function Header() {
                       <div className="mt-6 flow-root">
                         <div className="my-2">
                           {secondary_services.map((item) => (
-                            <Link
+                            <a
                               key={item.name}
                               href={item.href}
                               className="flex gap-x-4 py-2 text-sm font-semibold leading-6 text-gray-900"
                             >
                               {item.name}
-                            </Link>
+                            </a>
                           ))}
                         </div>
                       </div>
@@ -154,13 +154,13 @@ export default function Header() {
                       <div className="mt-12 flow-root">
                         <div className="-my-2">
                           {others_services.map((item) => (
-                            <Link
+                            <a
                               key={item.name}
                               href={item.href}
                               className="flex gap-x-4 py-2 text-sm font-semibold leading-6 text-gray-900"
                             >
                               {item.name}
-                            </Link>
+                            </a>
                           ))}
                         </div>
                       </div>
@@ -212,14 +212,14 @@ export default function Header() {
             Testimonials
           </Link>
           <Link
-            href="#works"
+            href="/use-cases"
             className="text-base font-semibold leading-6 text-white"
           >
             Our Works
           </Link>
 
           <Link
-            href="#"
+            href="/blog"
             className="text-base font-semibold leading-6 text-white"
           >
             Blog
@@ -320,12 +320,18 @@ export default function Header() {
                 </Link>
                 <Link
                   onClick={() => setMobileMenuOpen(false)}
-                  href="#work"
+                  href="/use-cases"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
                 >
                   Our Works
                 </Link>
-
+                <Link
+                  onClick={() => setMobileMenuOpen(false)}
+                  href="/blog"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
+                >
+                  Blog
+                </Link>
                 <Link
                   onClick={() => setMobileMenuOpen(false)}
                   href="https://t.me/Ritz_Expelee"

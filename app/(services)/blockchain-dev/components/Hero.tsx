@@ -23,7 +23,7 @@ const values = [
     icon: UserGroupIcon,
     header: "In-house Pre-vetted Developers",
     title: "20+",
-    caption: "xpert Dedicated Web Developers for Hire",
+    caption: "Dedicated Web Developers for Hire",
   },
   {
     icon: BanknotesIcon,
