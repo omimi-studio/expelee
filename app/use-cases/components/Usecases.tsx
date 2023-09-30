@@ -107,7 +107,7 @@ export default function Usecases() {
                 transforming the DeFi landscape with enhanced utilities for a
                 safer and user-friendly experience. Our team seamlessly
                 integrated two innovative DApps with their website, amplifying
-                their platform's capabilities.
+                their platform&apos;s capabilities.
               </p>
               <div className="mt-10">
                 {/* <Link
