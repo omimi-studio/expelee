@@ -97,13 +97,13 @@ export default function Posts() {
                 key={post.id}
                 className="relative isolate flex flex-col gap-8 lg:flex-row"
               >
-                <div className="relative aspect-auto  lg:w-64 lg:shrink-0">
+                <div className="relative aspect-square lg:aspect-auto lg:w-64 lg:shrink-0">
                   <Image
                     src={post.imgUrl}
                     alt=""
                     width={500}
                     height={500}
-                    className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-covr"
+                    className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
