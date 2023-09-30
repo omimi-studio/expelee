@@ -26,20 +26,20 @@ const navigation = {
     },
   ],
   support: [
-    { name: "MEAN Stack Development ", href: "#" },
-    { name: "Jamstack Development", href: "#" },
-    { name: "Saas Development", href: "#" },
-    { name: "Front-end Development", href: "#" },
-    { name: "UI/UX Design Testing & QA", href: "#" },
-    { name: "Web App Development", href: "#" },
+    { name: "MEAN Stack Development ", href: "/" },
+    { name: "Jamstack Development", href: "/" },
+    { name: "Saas Development", href: "/" },
+    { name: "Front-end Development", href: "/" },
+    { name: "UI/UX Design Testing & QA", href: "/" },
+    { name: "Web App Development", href: "/" },
   ],
   company: [
-    { name: "Product Development  ", href: "#" },
-    { name: "MVP Development", href: "#" },
-    { name: "eCommerce Development", href: "#" },
-    { name: "Web Development", href: "#" },
-    { name: "IOT App Development", href: "#" },
-    { name: "AR/VR Development", href: "#" },
+    { name: "Product Development  ", href: "/" },
+    { name: "MVP Development", href: "/" },
+    { name: "eCommerce Development", href: "/" },
+    { name: "Web Development", href: "/" },
+    { name: "IOT App Development", href: "/" },
+    { name: "AR/VR Development", href: "/" },
   ],
 
   social: [
@@ -63,7 +63,7 @@ const navigation = {
     },
     {
       name: "Instagram",
-      href: "ttps://www.instagram.com/expeleeofficial/",
+      href: "https://www.instagram.com/expeleeofficial/",
       icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path

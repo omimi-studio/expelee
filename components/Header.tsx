@@ -35,20 +35,20 @@ const core_services = [
   },
 ];
 const secondary_services = [
-  { name: "MEAN Stack Development ", href: "#" },
-  { name: "Jamstack Development", href: "#" },
-  { name: "Saas Development", href: "#" },
-  { name: "Front-end Development", href: "#" },
-  { name: "UI/UX Design Testing & QA", href: "#" },
-  { name: "Web App Development", href: "#" },
+  { name: "MEAN Stack Development ", href: "/" },
+  { name: "Jamstack Development", href: "/" },
+  { name: "Saas Development", href: "/" },
+  { name: "Front-end Development", href: "/" },
+  { name: "UI/UX Design Testing & QA", href: "/" },
+  { name: "Web App Development", href: "/" },
 ];
 const others_services = [
-  { name: "Product Development  ", href: "#" },
-  { name: "MVP Development", href: "#" },
-  { name: "eCommerce Development", href: "#" },
-  { name: "Web Development", href: "#" },
-  { name: "IOT App Development", href: "#" },
-  { name: "AR/VR Development", href: "#" },
+  { name: "Product Development  ", href: "/" },
+  { name: "MVP Development", href: "/" },
+  { name: "eCommerce Development", href: "/" },
+  { name: "Web Development", href: "/" },
+  { name: "IOT App Development", href: "/" },
+  { name: "AR/VR Development", href: "/" },
 ];
 
 function classNames(...classes: string[]) {
@@ -200,13 +200,13 @@ export default function Header() {
           </Popover>
 
           <Link
-            href="#team"
+            href="/#team"
             className="text-base font-semibold leading-6 text-white"
           >
             Team
           </Link>
           <Link
-            href="#testimonials"
+            href="/#testimonials"
             className="text-base font-semibold leading-6 text-white"
           >
             Testimonials
@@ -306,14 +306,14 @@ export default function Header() {
                 </Disclosure>
                 <Link
                   onClick={() => setMobileMenuOpen(false)}
-                  href="#team"
+                  href="/#team"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
                 >
                   Team
                 </Link>
                 <Link
                   onClick={() => setMobileMenuOpen(false)}
-                  href="#testimonials"
+                  href="/#testimonials"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 "
                 >
                   Testimonials

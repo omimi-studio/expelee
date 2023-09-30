@@ -40,20 +40,20 @@ const features = [
 
 export default function Article() {
   return (
-    <div className="bg-white px-6 py-32 lg:px-8">
+    <div className="bg-white px-6 pb-24  lg:px-8">
       <div className="mx-auto max-w-4xl text-base leading-7 text-gray-700">
         <div className="max-w-4xl">
           <figure>
             <Image
-              width={1000}
-              height={1000}
-              className="aspect-auto rounded-xl object-cover"
+              width={500}
+              height={200}
+              className="w-full h-full rounded-xl object-contain"
               src={sbf}
               alt=""
             />
           </figure>
         </div>
-        <p className="mt-6 text-xl leading-8">
+        <p className=" text-xl leading-8">
           Introducing our custom dApp for 8BitEARN, offering a suite of features
           including Staking, DAO, and Credit facilities. We meticulously
           designed and developed this advanced dApp, prioritizing security and
